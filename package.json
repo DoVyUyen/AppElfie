@@ -1,0 +1,29 @@
+{
+  "name": "mobile-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^5.0.1",
+    "@wdio/allure-reporter": "^9.2.14",
+    "@wdio/appium-service": "^9.4.0",
+    "@wdio/cli": "^9.3.1",
+    "@wdio/spec-reporter": "^9.2.14",
+    "allure-commandline": "^2.32.0",
+    "appium-chromedriver": "^6.1.6",
+    "chai": "^5.1.2",
+    "ts-node": "^10.9.2",
+    "webdriverio": "^9.3.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.3.1",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/types": "^9.2.2",
+    "@wdio/visual-service": "^6.2.2",
+    "appium-xcuitest-driver": "^7.32.0",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  }
+}
